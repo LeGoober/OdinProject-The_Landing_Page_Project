@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *************************
+    HEADER SYTLING CONFIGURATION
+    - header-container
+    - navigation-header
+    - logo
+    - header-links / link-one, link-two
+    - header-container
+    - header-item
+************************* */
+header{
+    background-color: #1F2937;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container{
+    width: 900px;
+    display: flex;
+}
+
+.navigation-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    flex-direction: row;
+}
+
+.logo{
+    font-weight: 700;
+    font-family: "Roboto" serif;
+}
+
+.header-links{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-container-items{
+    display: flex;
+}
