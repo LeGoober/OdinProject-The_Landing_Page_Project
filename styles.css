@@ -12,8 +12,8 @@
     - header-links / link-one, link-two
     - header-container
     - header-item
-************************* */
-header{
+
+header {
     background-color: #1F2937;
     color: #fff;
     padding: 20px;
@@ -21,30 +21,160 @@ header{
     justify-content: center;
 }
 
-.header-container{
+.header-container {
     width: 900px;
     display: flex;
 }
 
-.navigation-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    flex-direction: row;
-}
 
-.logo{
+
+
+
+.logo {
     font-weight: 700;
     font-family: "Roboto" serif;
 }
 
-.header-links{
+
+
+.header-container-items {
+    display: flex;
+}
+
+************************* */
+
+
+
+/* *************************
+    STYLING FOR THE NAVIGATION CONTAINER
+************************* */
+
+
+.header-container {
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.logo-container {
+    padding: 10px;
+}
+
+.header-links {
     display: flex;
     gap: 20px;
     text-decoration: none;
     font-weight: bold;
 }
 
-.header-container-items{
+.navigation-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    gap: 20px;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* *************************
+    STYLING FOR THE HEADER CONTAINER
+************************* */
+
+.header-container-items {
+    display: flex;
+    justify-content: space-between;
+    /* for horizontal spacing */
+    align-items: center;
+    /* or stretch/flex-start as needed */
+    gap: 60px;
+}
+
+.header-item-one {
+    padding: 10px;
+    margin: 10px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+}
+
+.header-item-two {
+    margin-right: 0px;
+    padding: 10px;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 2;
+
+}
+
+.header-title {
+    padding: 10px;
+    font-weight: 900;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-paragraph {
+    padding: 10px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-button {
+    padding: 10px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    width: 50px;
+    height: 100px;
+}
+
+.header-image {
+    width: 500px;
+}
+
+img {
+    width: 500px;
+    height: 280px;
+}
+
+/* *************************
+    STYLING FOR THE RANDOM INFORMATION CONTAINER
+************************* */
+.random-information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-heading {
+    font-weight: 36px;
+    font-size: larger;
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.flex-items,
+.one {
+    flex: 1;
+}
+
+.flex-items,
+.two {
+    flex: 2;
+}
+
+.flex-items,
+.three {
+    flex: 3;
+}
+
+.flex-items,
+.four {
+    flex: 4;
 }
