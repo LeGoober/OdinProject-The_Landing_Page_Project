@@ -39,9 +39,7 @@
                             Soluta neque quidem voluptatem, id perspiciatis necessitatibus odit dolorum.
                         </p>
                     </div>
-                    <div class="header-button">
-                        <input type="button" value="Sign In" onclick="alert('Button Clicked')" />
-                    </div>
+                        <button class="header-button">Click Me</button>
                 </div>
 
                 <div class="header-item-two">
@@ -60,31 +58,29 @@
         - paragraphs under the flex items        
     ***************************************     -->
     <div class="random-information-container">
-        <div class="container-heading">
-            <h2>Some Random Information</h2>
-        </div>
+        <div class="container-heading">Some Random Information</div>
         <div class="flex-item-container">
-            <div class="flex-items one">
-                <div class="flex-items"></div>
-                <div class="flex-items text">
+            <div class="flex-item">
+                <div class="display-flex-item"></div>
+                <div class="display-flex-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </div>
             </div>
-            <div class="flex-items two">
-                <div class="flex-items"></div>
-                <div class="flex-items text">
+            <div class="flex-item">
+                <div class="display-flex-item"></div>
+                <div class="display-flex-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </div>
             </div>
-            <div class="flex-items three">
-                <div class="flex-items"></div>
-                <div class="flex-items text">
+            <div class="flex-item">
+                <div class="display-flex-item"></div>
+                <div class="display-flex-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </div>
             </div>
-            <div class="flex-items four">
-                <div class="flex-items"></div>
-                <div class="flex-items text">
+            <div class="flex-item">
+                <div class="display-flex-item"></div>
+                <div class="display-flex-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </div>
             </div>
@@ -98,10 +94,29 @@
         made the quote        
     ***************************************     -->
     <div class="quote-container">
-        <div class="quote item">
-            <p>This quoote is meant to signify some important thing being said idk</p>
-            <div class="quote item-text">
+        <div class="quote-item-text">
+            <p>This quote is meant to signify some important thing being said idk</p>
+            <div class="quote-item">
                 <p><sub>-Iron Man, Tony Stark</sub></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ***************************************
+        SETTING THE CONTENT OF THE BOTTOM SECTION 
+        - 1 Quote placed in the center of the container
+        - some subtext placed to highlight the person who
+        made the quote        
+    ***************************************     -->
+    <div class="bottom-container">
+        <div class="bottom-item">
+            <div class="bottom-item text">
+                <p>Call to action, its time!</p>
+                <p><sub>Sign up for our product by clicking the button</sub></p>
+            </div>
+            <div class="bottom-item button">
+                <input type="button" value="Sign Up" onclick="alert('User successfully signed up')" />
             </div>
         </div>
     </div>
@@ -115,10 +130,6 @@
     <footer>
         <div class="footer-container">
             <div class="footer-item">
-                <div class="footer-item text">
-                    <p>Call to action, its time!</p>
-                    <p><sub>Sign up for our product by clicking the button</sub></p>
-                </div>
                 <div class="footer-item button">
                     <input type="button" value="Sign Up" onclick="alert('User successfully signed up')" />
                 </div>
